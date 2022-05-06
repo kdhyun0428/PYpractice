@@ -13,7 +13,6 @@ msg=f"Your One Time Password(OTP) is {rand}"
 def sms_send(a,msg):
     url="https://www.fast2sms.com/dev/bulk"
     params={
-    ####Paste Your Unique API Here in-place of ************
         "authorization":"*************",
         "sender_id":"SMSINI",
         "message":msg,
